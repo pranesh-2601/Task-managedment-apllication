@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Test / coverage output
+coverage/
+.nyc_output/
+
+# Local tooling
+node_modules/
+dist/
+build/
